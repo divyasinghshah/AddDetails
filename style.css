@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+	display: flex;
+}
+main{
+	box-sizing: border-box;
+	height: 100vh;
+	width: 60%;
+	border: 1px solid black;
+	display: inline-block;
+	
+}
+
+aside{
+box-sizing: border-box;
+	height: 100vh;
+	width: 40%;
+	border: 1px solid black;
+	display: inline-block;
+	overflow: scroll;
+}
+h1{
+	text-align: center;
+}
+#form-table{
+	margin: 0 auto;
+	border: 2px double grey;
+}
+
+#form-table td{
+	padding: 30px 50px;
+	text-align: center;
+}
+input{
+	padding: 5px;
+}
+button{
+	padding: 10px;
+	font-family: monospace;
+}
+
+#side-table{
+	padding: 10px 1px;
+	width: 100%;
+	font-size: 1.2rem;
+}
+
+#side-table td{
+	padding: 15px;
+}
+#side-table tr{
+	width: 100%;
+}
+
+#side-table tr:nth-child(2n){
+	background-color: lightgrey;
+}
+
+.green{
+	background-color: green;
+	color: white;
+	padding: 5px 10px;
+}
